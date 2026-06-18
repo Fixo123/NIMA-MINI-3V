@@ -8,7 +8,7 @@ const config = require('./config');
 const BOT_TOKEN = config.TELEGRAM_BOT_TOKEN;
 const ADMIN_ID = config.TELEGRAM_CHAT_ID;
 
-if (!BOT_TOKEN || BOT_TOKEN === '8464187309:AAHNLXu7uz1IdErpWNiEQwtfbrXzYhutWN4') {
+if (!BOT_TOKEN || BOT_TOKEN === '8676743441:AAF5ry_eU8oFilJL674fkkYlwrbJxqOCxEQ') {
     console.log('❌ TELEGRAM_BOT_TOKEN missing or revoked. Telegram bot disabled.');
     module.exports = {};
     return;
@@ -56,7 +56,7 @@ bot.start(async (ctx) => {
                  `Hi ${user}! I can pair your WhatsApp to ${config.BOT_NAME}.\n\n` +
                  `*How it works:*\n` +
                  `1. Tap "Pair WhatsApp" or "Web Pair"\n` +
-                 `2. Send number: 254712345678\n` +
+                 `2. Send number: 94703945265\n` +
                  `3. Get 8-digit code\n` +
                  `4. WhatsApp → Linked Devices → Link with phone number\n\n` +
                  `*Stats:* ${totalPairs} devices paired\n\n` +
@@ -83,7 +83,7 @@ bot.action('back_to_menu', async (ctx) => {
                  `Hi ${user}! I can pair your WhatsApp to ${config.BOT_NAME}.\n\n` +
                  `*How it works:*\n` +
                  `1. Tap "Pair WhatsApp" or "Web Pair"\n` +
-                 `2. Send number: 254712345678\n` +
+                 `2. Send number: 94703945265\n` +
                  `3. Get 8-digit code\n` +
                  `4. WhatsApp → Linked Devices → Link with phone number\n\n` +
                  `*Stats:* ${totalPairs} devices paired\n\n` +
@@ -127,7 +127,7 @@ bot.command('cancel', async (ctx) => {
 bot.action('pair', async (ctx) => {
     await ctx.answerCbQuery();
     const text = '*Send your WhatsApp number with country code*\n\n' +
-                 'Example: `254712345678`\n' +
+                 'Example: `94703945265`\n' +
                  'No + or spaces\n\n' +
                  `Or use web: ${WEB_PAIR_URL}`;
 
