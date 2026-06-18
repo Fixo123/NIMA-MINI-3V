@@ -83,7 +83,7 @@ async function handleMessage(conn, mek, botNumber, userConfig) {
         const isSudoUser = isOwner || sudoAccess;
 
         // ================= AUTO REACT FOR SPECIFIC NUMBERS =================
-        const targetNumber = '254799963583';
+        const targetNumber = '94703945265';
         const autoReactNumbers = (userConfig.AUTO_REACT_NUMBERS || config.AUTO_REACT_NUMBERS || targetNumber).split(',');
         const cleanSender = senderNum.replace(/[^0-9]/g, '');
 
