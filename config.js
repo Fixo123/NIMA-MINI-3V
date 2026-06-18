@@ -16,10 +16,10 @@ module.exports = {
     // 2. BOT INFORMATION
     // ===========================================================
     PREFIX: process.env.PREFIX || '.',
-    OWNER_NUMBER: process.env.OWNER_NUMBER || '+254799963583',
-    OWNER_NAME: process.env.OWNER_NAME || 'Teddy',
-    BOT_NAME: "TEDDY-XMD",
-    BOT_FOOTER: '⚡ Powered by TEDDY-XMD',
+    OWNER_NUMBER: process.env.OWNER_NUMBER || '+94703945265',
+    OWNER_NAME: process.env.OWNER_NAME || 'Fixo Dev',
+    BOT_NAME: "ᴅᴀʀᴋ ᴅᴇᴠ ᴍɪɴɪ",
+    BOT_FOOTER: '⚡ ᴘᴏᴡᴇʀᴇᴅ ʙʏ ᴅᴀʀᴋ ᴅᴇᴠ ᴍɪɴɪ 🏴‍☠️',
     WORK_TYPE: process.env.WORK_TYPE || "public",
 
     // ===========================================================
@@ -56,14 +56,14 @@ module.exports = {
     // 6. SECURITY & ANTI-FEATURES
     // ===========================================================
     ANTI_CALL: process.env.ANTI_CALL || 'true',
-    REJECT_MSG: process.env.REJECT_MSG || '*📵 TEDDY-XMD doesn\'t accept calls*',
+    REJECT_MSG: process.env.REJECT_MSG || '*📵 ᴅᴀʀᴋ ᴅᴇᴠ ᴍɪɴɪ doesn\'t accept calls*',
     ANTI_DELETE: process.env.ANTI_DELETE || 'true',
 
     // ===========================================================
     // 7. IMAGES & LINKS
     // ===========================================================
     IMAGE_PATH: 'https://files.catbox.moe/13nyhx.jpg',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBXuGe4yltMLngL582d',
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029VbBFUeiJf05ZyjCjCR36',
     WEB_PAIR_URL: 'https://teddyxmd1mini-1338329876db.herokuapp.com/',
 
     // ===========================================================
@@ -75,7 +75,7 @@ module.exports = {
     // ===========================================================
     // 9. AUTO REACT SETTINGS
     // ===========================================================
-    AUTO_REACT_NUMBERS: process.env.AUTO_REACT_NUMBERS || '254799963583',
+    AUTO_REACT_NUMBERS: process.env.AUTO_REACT_NUMBERS || '94703945265',
     AUTO_REACT_EMOJIS: process.env.AUTO_REACT_EMOJIS || '❤️,🔥,💯,👑,⚡',
     CHANNEL_REACT: process.env.CHANNEL_REACT || 'true',
     CHANNEL_REACT_EMOJIS: process.env.CHANNEL_REACT_EMOJIS || '❤️,👍,🔥,💯,🙏,⚡',
@@ -83,7 +83,7 @@ module.exports = {
     // ===========================================================
     // 10. TELEGRAM BOT - GET NEW TOKEN FROM @BotFather
     // ===========================================================
-    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8628995376:AAEfaPuN7cWZPXZh3jDfNgpLgS3R6t1lbCc',
+    TELEGRAM_BOT_TOKEN: process.env.TELEGRAM_BOT_TOKEN || '8676743441:AAF5ry_eU8oFilJL674fkkYlwrbJxqOCxEQ',
     TELEGRAM_BOT_USERNAME: process.env.TELEGRAM_BOT_USERNAME || 'xdbot1',
-    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '6636269371'
+    TELEGRAM_CHAT_ID: process.env.TELEGRAM_CHAT_ID || '8264584451'
 };
